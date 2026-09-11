@@ -24,18 +24,28 @@
 
 ## 安装方法
 
-### 方法一：下载 ZIP（推荐新手）
+### 方法一：一键安装（推荐，复制粘贴即可）
+
+在 GitHub 仓库页面选中下面的指令并复制，然后粘贴到豆包工作 Agent 对话框中发送，Agent 会自动完成安装：
+
+```
+请安装 tm-meeting-poster-generator Skill：从 https://github.com/liyaotangLEO/tm-meeting-poster-generator 克隆到 ~/.agents/skills/ 目录，安装完成后告诉我。
+```
+
+Agent 收到后会自动执行：创建目录 → 克隆仓库 → 确认安装结果，全程无需手动操作。
+
+### 方法二：下载 ZIP（适合新手）
 
 1. 点击仓库右上角 **Code** → **Download ZIP**
 2. 解压到本地 skill 目录：
    - Windows: `C:\Users\你的用户名\.agents\skills\`
-   - 解压后目录结构：`C:\Users\你的用户名\.agents\skills\tm-meeting-poster-generator\`
+   - macOS/Linux: `~/.agents/skills/`
+3. 解压后目录结构：`~/.agents/skills/tm-meeting-poster-generator/`
 
-### 方法二：Git Clone
+### 方法三：Git Clone
 
 ```bash
-cd ~/.agents/skills/
-git clone https://github.com/liyaotangLEO/tm-meeting-poster-generator.git
+git clone https://github.com/liyaotangLEO/tm-meeting-poster-generator.git ~/.agents/skills/tm-meeting-poster-generator
 ```
 
 ## 使用流程
